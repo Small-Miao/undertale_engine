@@ -1,1 +1,1 @@
-Encounter_Set(0,-1,battle_enemy,-1,"* You encountered nothing!",-1);
+Encounter_Set(0,-1,battle_enemy_defult,-1,global.EnemyMeetDialog,-1);

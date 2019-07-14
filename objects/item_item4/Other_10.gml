@@ -1,0 +1,10 @@
+Dialog_Add(global.ItemUseDialogArray[4]);
+Dialog_Start();
+if(global.ItemHealArray[4]>0){
+	Player_Heal(global.ItemHealArray[4]);
+}else{
+	Player_Hurt(global.ItemHealArray[4]);
+}
+audio_play_sound(snd_item_heal,0,0);
+Item_Remove(_item_slot);
+event_inherited();

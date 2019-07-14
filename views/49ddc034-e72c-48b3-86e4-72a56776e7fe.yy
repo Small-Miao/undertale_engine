@@ -13,7 +13,9 @@
         "2e1cae8f-3859-4469-b6da-fdbf273bf191",
         "a512191a-f92c-4258-97b3-062c44d1998a",
         "231d3a63-1392-4686-a67f-7ba953a46f8b",
-        "53a14eac-a2c5-4435-bf7d-bfbabc961a38"
+        "53a14eac-a2c5-4435-bf7d-bfbabc961a38",
+        "60426978-0215-456e-960c-1855f5fb9fac",
+        "7974a4f7-5c62-4b7c-a527-c94c42b6cf8b"
     ],
     "filterType": "GMIncludedFile",
     "folderName": "sprite",

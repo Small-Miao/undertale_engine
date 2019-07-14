@@ -48,6 +48,10 @@ if(_state==BATTLE_STATE.MENU){
 	//战斗目标
 	if(_menu==BATTLE_MENU.FIGHT_TARGET){
 		//上/下
+		var bar = instance_create_depth(0,0,0,battle_menu_fight_hp_bar);
+			bar.enemy_slot = 1;
+			bar.hp = battle_enemy_defult._enemy_hp;
+			bar.hp_max = battle_enemy_defult._enemy_hp_max;
 		if(Input_CheckPressed(INPUT.UP)){
 			var enemy=_menu_choice_enemy-1;
 			if(enemy>=0){

@@ -1,3 +1,5 @@
+
+_time+=1;
 switch(effect){
 	case -1:
 		_offset_x=0;
@@ -10,5 +12,9 @@ switch(effect){
 			_offset_y=random_range(-1,1);
 		}
 		_effect_shook=!_effect_shook;
+		break;
+	case 1:
+		_offset_x=_offset_x+sin(_time*0.15)/pi*2;
+		_offset_y=_offset_y+cos(_time*0.15)/pi*2;
 		break;
 }

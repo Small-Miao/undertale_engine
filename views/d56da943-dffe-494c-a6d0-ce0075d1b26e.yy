@@ -12,7 +12,7 @@
         "a47af869-15f1-4796-b64f-bbec8c2bf877"
     ],
     "filterType": "GMIncludedFile",
-    "folderName": "english",
+    "folderName": "base",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -110,7 +110,7 @@ switch(cmd[|0]){
 					color=cmd[|proc+1];
 				}
 				if(ARGC==1){
-					_color_outline[0]=color;
+					_color_outline[0]=color;	
 					_color_outline[1]=color;
 					_color_outline[2]=color;
 					_color_outline[3]=color;
